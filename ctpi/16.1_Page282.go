@@ -31,7 +31,7 @@ func getSliceLen() int {
 
 func getSliceVals(sVal int) []int {
   sliceVal := make([]int, sVal)
-  fmt.Println("Enter the slice values separated by space: ")
+  fmt.Println("Please enter the positive, sorted slice values separated by spaces (last element must be a zero): ")
   for i := 0; i < sVal; i++ {
       fmt.Scan(&sliceVal[i])
     }
@@ -40,7 +40,7 @@ func getSliceVals(sVal int) []int {
 
 func getNewElem() int {
   var nElem int
-  fmt.Println("Enter the newElement to be inserted: ")
+  fmt.Println("Please enter the new element to be inserted: ")
   fmt.Scan(&nElem)
   return nElem
 }
