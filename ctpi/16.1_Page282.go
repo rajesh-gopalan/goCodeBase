@@ -24,7 +24,7 @@ func main() {
 
 func getSliceLen() int {
   var i int
-  fmt.Println("Enter the length of the slice: ")
+  fmt.Println("Please enter the length of the slice: ")
   fmt.Scan(&i)
   return i
 }
